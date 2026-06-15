@@ -12,7 +12,8 @@
 3. เอา text กลับมารวมกัน ใช้ .join */
 
 function reverseText(text){
-    const splitText = text.split("");
+    const lowercase = text.toLowerCase(); //แก้ให้เป็นตัวพิมพ์เล็กหมด
+    const splitText = lowercase.split("");
     // console.log(splitText)
     const reverseTexts = splitText.reverse();
     // console.log(reverseTexts)
